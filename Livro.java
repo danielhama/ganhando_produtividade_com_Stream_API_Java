@@ -13,6 +13,10 @@ public class Livro {
         this.ano = ano;
     }
 
+    @Override
+    public String toString() {
+        return "Livro{" + this.titulo + ", " + this.autor + ", " + this.ano + "}";}
+
     public String getTitulo() {
         return titulo;
     }

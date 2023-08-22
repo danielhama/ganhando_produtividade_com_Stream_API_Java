@@ -35,19 +35,20 @@ public class CadastroProdutos {
 
     public static void main(String[] args) {
         CadastroProdutos cadastroProdutos = new CadastroProdutos();
-        cadastroProdutos.adicionaProduto(1, "AAA",
+        cadastroProdutos.adicionaProduto(1, "Za",
                 210.00, 1000);
         cadastroProdutos.adicionaProduto(2, "BBB",
-                210.00, 80);
-        cadastroProdutos.adicionaProduto(3, "CCC",
-                210.00, 50);
-        cadastroProdutos.adicionaProduto(4, "DDD",
-                210.00, 100);
+                10.00, 80);
+        cadastroProdutos.adicionaProduto(3, "gCC",
+                20.00, 50);
+        cadastroProdutos.adicionaProduto(4, "fDD",
+                200.00, 100);
         cadastroProdutos.adicionaProduto(5, "EEE", 210.00, 101);
 
 //        System.out.println(cadastroProdutos.produtoSet);
         System.out.println(cadastroProdutos.exibirProdutoPorNome());
         System.out.println(cadastroProdutos.exibirProdutoPorQtd());
+        System.out.println(cadastroProdutos.exibirProdutoPorPreco());
 
     }
 }
